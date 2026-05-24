@@ -16,6 +16,7 @@ if id == "roblox" and password == "gemini":
     print(f"you have owner panel and ability to ban players id: {id}")
 elif id == "admin1234" and password == "gpt":
     print (f"you are an admin have abilty to ban players admin panel id: {id}")
+#used in so you can type real id of a player instead of typing players
 elif id in players and password == "1234":
     print(f"welcome id: {id}")
 else:
